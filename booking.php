@@ -1,0 +1,271 @@
+<html>
+    <head>
+<title>Booking</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
+integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <section class="sub-header">
+    <div class="container-fluid1 ">
+      
+      <div class="container d-flex justify-content-between align-items-center navigation">
+      <div>
+        <img src="images/logo.jpg">
+      </div>
+     
+        <div class="nav-bar ">
+          <ul class="d-flex menu-bar list-unstyled justify-content-between">
+            <li class="nav-item">
+              <a class="nav-link1" href="index.php">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1" href="./index.php">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1" href="#guide">Guide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1" href="#services-id">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1" href="#contact">Contact Us</a>
+            </li>
+           
+            
+          </ul>
+        </div>
+
+        <div class="loginbtn d-flex justify-content-around">
+          <div>
+          <button type="button" class="login-btn" href="login.html">Login</button>
+          </div>
+      
+    
+       </div>
+
+       
+    </div>
+      
+      
+        
+    </div>
+
+    
+
+
+    <!-- <h1>Booking</h1> -->
+    
+  
+</section>
+
+
+<section>
+    <!-- <div class="col-md-4 col-sm-6">
+        <div class="single-package-item">
+          <img src="images/australia.jpeg" alt="package-place">
+          <div class="single-package-item-txt">
+            <h11>AUSTRALIA <span class="pull-right">RS.1,2534/-</span></h11>
+            
+            <div class="package-para">
+              <p>
+                <span>
+                  <i class="fa fa-angle-right"></i> 5days 6 nights
+                </span>
+                <i class="fa fa-angle-right"></i> SYDNEY OPERA HOUSE
+              </p>
+              <p>
+                <span>
+                  <i class="fa fa-angle-right"></i> SYDNEY HARBOUR BRIDGE
+                </span>
+                <i class="fa fa-angle-right"></i> BONDI BEACH
+              </p>
+            </div>
+            <div class="package-review">
+              <p>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <span>2544 review</span>
+              </p>
+            </div>
+            <div class="about-btn">
+              <button class="about-view packages-btn">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+<div class="book_form">
+<form method="post" action="booking_backup.php">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <label for="formGroupExampleInput" class="form-label">Details</label>
+          <input type="text" name="name" class="form-control"
+          id="fname" placeholder="First name">      
+      </div>   
+    </div>
+    <div class="row">
+      <div class="col-12">
+          <input type="text" name="name" class="form-control"
+          id="lname" placeholder="Last Name">      
+      </div>   
+    </div>
+    <div class="row">
+      <div class="col-12">
+          <input type="text" name="name" class="form-control"
+          id="email" placeholder="Email ID">      
+      </div>   
+    </div>
+    <div class="row">
+      <div class="col-12">
+          <input type="text" name="name" class="form-control"
+          id="contact" placeholder="Contact Number">      
+      </div>   
+    </div>
+   
+   <br>
+   <br>
+   <br>
+   <br>
+   <div class="row">
+    <div class="col-12">
+      <label for="formGroupExampleInput" class="form-label">Traveller Details</label>
+        <input type="text" name="name" class="form-control"
+        id="dest" placeholder="Destination">      
+    </div>   
+  </div>
+  <div class="row">
+    <div class="col-12">
+        <input type="text" name="name" class="form-control"
+        id="traveller" placeholder="No of Travellers">      
+    </div>   
+  </div>
+  <div class="row">
+    <div class="col-12">
+        <input type="text" name="name" class="form-control"
+        id="date" placeholder="Date">      
+    </div>   
+  </div>
+  <div class="row">
+    <div class="col-12">
+        <input type="text" name="name" class="form-control"
+        id="location" placeholder="Your location">      
+    </div>   
+  </div>
+  <!--  -->
+
+     
+      </div>
+    </div>
+    <div><a href="#"  class="btn1 btn-about1">Send Message</a></div>
+    
+    <!-- <button type="submit" name="send" class="btn1 btn-about1">Send Message</button> -->
+  
+
+</form>
+</div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- -------------------------footer-------------------------- -->
+<footer>
+  <section class="container-fluid last-section d-md-flex flex-md-wrap justify-content-md-center justify-content-md-between justify-content-lg-around">
+
+      <section class="about-1"data-aos="zoom-out-up">
+          <h3>About Us</h3>
+          <p>G-Tour is a tourism company. We provide tour all over the world. Our mission is to make memories that our customers will always remember.</p>
+      </section>
+
+      <section class="about-1 news-sectio"data-aos="zoom-out-up">
+          <h3>Newsletter</h3>
+          <p>Stay update with our latest</p>
+          <input class="email-box pl-2" type="email" placeholder="Enter Email">
+          <section class="email-arrow">
+             
+          </section>
+          <span class="e-arrow">Enter</span>
+      </section>
+
+      <section class="about-1"data-aos="zoom-out-up">
+          
+             <h3 class="ml-md-2">Instragram Feed</h3>
+          
+
+          <section class="ml-md-2 insta-img row row-cols-5 row-cols-md-7 row-cols-lg-6 row-cols-xl-5">
+             
+              <section class="insta1 col"></section>
+              <section class="insta2 col"></section>
+              <section class="insta3 col"></section>
+              <section class="insta4 col"></section>
+              <section class="insta5 col"></section>
+              <section class="insta6 col"></section>
+              <section class="insta7 col"></section>
+              <section class="insta8 col"></section>
+              <section class="insta9 col"></section>
+              <section class="insta10 col"></section>
+            
+          </section>
+      </section>
+
+      <section class="about-1"data-aos="zoom-out-up">
+          <h3 >Follow Us</h3>
+          <p>Let us be social</p>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+             <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-pinterest-p"></i></a>
+      </section>
+
+     
+  </section>
+  <section class="copy-right">
+      <p class="text-center text-lg-center"> Created By GYANDEEP YADAV</p>
+  </section>
+</footer>
+
+<!-- -----------------------------------------end of footer-------------------------------- -->
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+ integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js.js"></script>
+
+
+    </body>
+   
+</html>
